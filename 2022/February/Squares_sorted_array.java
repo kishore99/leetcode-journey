@@ -8,9 +8,9 @@ class Solution {
         int[] result = new int[n];
         int i = 0;
         int j = n-1;
-
+        //looping
         for(int k = n-1; k>=0; k--){
-            
+
             if(Math.abs(arr[i]) > Math.abs(arr[j])){
                 result[k] = arr[i] * arr[i];
                 i++;
@@ -20,8 +20,6 @@ class Solution {
             }
 
         }
-
         return result;
-
     }
 }
