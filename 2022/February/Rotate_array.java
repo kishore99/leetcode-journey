@@ -14,7 +14,6 @@ class Solution {
             right--;
         }
     }
-    //rotate array 
     public void rotate(int[] nums, int k) {
 
         k = k % nums.length;  // This will be highly effiecient when  k > nums.length
