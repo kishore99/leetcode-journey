@@ -10,7 +10,7 @@ class Solution {
             arr[left] = arr[right];
             arr[right] = temp;
 
-            left++;
+            left++;//increment by 1
             right--;
         }
     }
