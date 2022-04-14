@@ -6,7 +6,7 @@ class Solution {
     public void reverse(int[] arr, int left, int right){
         while(left < right)
 		{  // swap till the array is reversed
-      // hello 223666
+      // hello 22366633
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
